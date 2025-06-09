@@ -54,9 +54,9 @@ int main(){
    if(category=="dog"||category=="Dog"){
    a[1].showinfo("buddy","Black & Tan","watchdog","German shepherd",90000,12,1,64.5); 
    a[2].showinfo("Duddle","Brown","protective","Pitbull",90000,16,2,53);
-a[3].showinfo("Bella","Golden","Guard Dog","Golden Retriever",60000,12,3,61);
-a[4].showinfo("Rocky","Black & White","Watchdog","Bull Dog",90000,9,4,31);
-a[5].showinfo("coco","white","Intelligent","Poodle",90000,8,5,35);  
+   a[3].showinfo("Bella","Golden","Guard Dog","Golden Retriever",60000,12,3,61);
+   a[4].showinfo("Rocky","Black & White","Watchdog","Bull Dog",90000,9,4,31);
+   a[5].showinfo("coco","white","Intelligent","Poodle",90000,8,5,35);  
     cout<<"===SELECT ANY=== ";
     cout<<"\n1.To Buy ";
     cout<<"\n2.To Sell ";
@@ -117,8 +117,9 @@ for(int i=1;i<=100;i++)
     a[i].getdata();}
 }}
   else if(category=="cat"||category=="Cat"){
- c[1].showinfo("simba","cream","playful","Persian",30000,12,1,25);
-c[2].showinfo("leo","white","friendly","Maine coon",40000,12,2,30); c[3].showinfo("Mina","Tan","Social","Siamese",25000,12,3,20);
+c[1].showinfo("simba","cream","playful","Persian",30000,12,1,25);
+c[2].showinfo("leo","white","friendly","Maine coon",40000,12,2,30); 
+c[3].showinfo("Mina","Tan","Social","Siamese",25000,12,3,20);
 c[4].showinfo("Daisy","seal blue","Affectionate","Ragedoll",35000,9,4,25);
 c[5].showinfo("Oscar","white","easy going","British short haired",30000,8,5,20);  
     cout<<"===SELECT ANY=== ";
@@ -184,9 +185,10 @@ for(int i=1;i<=100;i++)
 }}
    else if(category=="bird"||category=="Bird"){
    b[1].showinfo("Rio","Green","mimic sound","Parrot",5000,20,1,10);
-   b[2].showinfo("Bella","Red tail","excellent mimics","Grey parrot",20000,40,2,30); b[3].showinfo("sky","blue","colourful","Rosellas",10000,15,3,20);
-b[4].showinfo("Forest","Green","colourful","Green-foot",15000,9,4,30);
-b[5].showinfo("snow","white","sociable","Pigeon",2000,15,5,20);  
+   b[2].showinfo("Bella","Red tail","excellent mimics","Grey parrot",20000,40,2,30); 
+   b[3].showinfo("sky","blue","colourful","Rosellas",10000,15,3,20);
+   b[4].showinfo("Forest","Green","colourful","Green-foot",15000,9,4,30);
+   b[5].showinfo("snow","white","sociable","Pigeon",2000,15,5,20);  
     cout<<"===SELECT ANY=== ";
     cout<<"\n1.To Buy ";
     cout<<"\n2.To Sell ";
